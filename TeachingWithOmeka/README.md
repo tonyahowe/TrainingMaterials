@@ -1,0 +1,1 @@
+Resources for leading a Teaching With Omeka class or workshop.
