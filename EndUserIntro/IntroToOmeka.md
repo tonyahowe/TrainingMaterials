@@ -30,7 +30,7 @@ _Compare the strengths and weaknesses of some web publishing systems_
 	* With Exhibit Builder, narratives around items
 
 ## Omeka Example Sites
-_Additional example sites at_
+_Examples of what can be done with Omeka_
 
 * Florida State Archives
 * Lincoln at 200
@@ -50,10 +50,6 @@ _Explain the basic steps of creating content in Omeka._
 	* Add DC metadata
 
 
-### Omeka Resources
-_Links to Omeka documentation pages, videos, etc._
-
-
 ## Item Types and Custom Item Types
 _Explain that "item" is to be taken very generically, and can refer to many types of content, with different sets of metadata._
 
@@ -63,14 +59,11 @@ _Explain that "item" is to be taken very generically, and can refer to many type
 	* Possible discussion of when and why to diverge from Dublin Core
 
 
-#### Omeka Resources
-
 ## Site Building
 
 * Tags
 * Exhibits
 
-### Omeka Resources
 
 ## Pages, Collections, and Exhibits
 
@@ -78,14 +71,20 @@ _Explain that "item" is to be taken very generically, and can refer to many type
 * Managing Collections
 	* Items belong to only one collection (absent other plugins)
 
-### Omeka Resources
+
+## Where to go for help and how to contribute
+
+* Forums
+* Recipes
 
 ## Some Plugins
 
+* MyOmeka
 * Dublin Core Extended
 * Collection Tree
 * Item Order
 * Commenting
+* Dropbox
 * CSV Import
 * OAI-PMH Import
 
