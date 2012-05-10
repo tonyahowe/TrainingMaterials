@@ -113,7 +113,7 @@ When using get_theme_option(), logo in config.ini becomes get_theme_option('Logo
 ### Activities
 
 * Add a configuration option to change the color to use for item titles
-* Add configuration option to highlight the description of an item (see items/show page suggested activities)
+* Add configuration option to highlight the description of an item (see items/show page activities)
 
 
 

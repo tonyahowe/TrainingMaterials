@@ -2,6 +2,7 @@
 
 
 ## Backgrounds
+_Explain the basics of how database-driven web publishing systems work_
 
 * Open Source software
 	* Understanding Web Applications
@@ -16,7 +17,8 @@
 * IS web publishing
 	* Omeka self-hosted vs Omeka.net
 
-## Omeka vs WordPress vs Drupal vs ContentDM
+## Omeka vs WordPress vs Drupal
+_Compare the strengths and weaknesses of some web publishing systems_
 
 * WP
 	* Up and running quickly. Text-based posts
@@ -39,23 +41,29 @@ _Additional example sites at_
 * Exhibit-based vs Collection-based sites
 
 ## Items, Files, and Dublin Core Metadata
+_Explain the basic steps of creating content in Omeka._
+
+### Activities
 
 * Create an Item
 	* Add Files to Item (Add Files in order, absent other plugins)
 	* Add DC metadata
 
+
 ### Omeka Resources
-#### Screenshots
-#### Discussion
+_Links to Omeka documentation pages, videos, etc._
+
 
 ## Item Types and Custom Item Types
+_Explain that "item" is to be taken very generically, and can refer to many types of content, with different sets of metadata._
 
-* 
-### Omeka Resources
-#### Screenshots
-#### Discussion
+### Activities
 
-### Omeka Resources
+* Create a "Dataset" item type
+	* Possible discussion of when and why to diverge from Dublin Core
+
+
+#### Omeka Resources
 
 ## Site Building
 
@@ -63,8 +71,6 @@ _Additional example sites at_
 * Exhibits
 
 ### Omeka Resources
-#### Screenshots
-#### Discussion
 
 ## Pages, Collections, and Exhibits
 
@@ -73,11 +79,10 @@ _Additional example sites at_
 	* Items belong to only one collection (absent other plugins)
 
 ### Omeka Resources
-#### Screenshots
-#### Discussion
 
 ## Some Plugins
 
+* Dublin Core Extended
 * Collection Tree
 * Item Order
 * Commenting
