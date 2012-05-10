@@ -1,8 +1,0 @@
-<?php
-class Example_IndexController extends Omeka_Controller_Action
-{
-    public function indexAction()
-    {
-        
-    }
-}
