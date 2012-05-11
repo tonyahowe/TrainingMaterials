@@ -3,21 +3,24 @@ class ModelExamplePlugin extends Omeka_Plugin_Abstract
 {
     protected $_hooks = array(
         'public_append_to_collections_show',
-    'install',
-    'uninstall'
+           'install',
+        'uninstall'
     );
 
-    public function hookPublicAppendToCollectionsShow($collection)
+    public function hookPublicAppendToCollectionsShow()
     {
-    $db = get_db();
-    // first example uses the simple, straightforward method in CollectorTable
-    $collectors = $db->getTable('Collector')-> findForCollectionId($collection->id);
-    if(count($collectors) != 0) {
-        foreach($collectors as $collector) {
-          echo "<h4>" . $collector->name  . "</h4>";
-          echo "<div>" . $collector->bio . "</div>";
+        $db = get_db();
+        $collection = get_current_collection();
+
+        // first example uses the simple, straightforward method in CollectorTable
+        $collectors = $db->getTable('Collector')->findForCollectionId($collection->id);
+
+        if(count($collectors) != 0) {
+            foreach($collectors as $collector) {
+              echo "<h4>" . $collector->name  . "</h4>";
+              echo "<p>" . $collector->bio . "</p>";
+            }
         }
-    }
     }
 
 

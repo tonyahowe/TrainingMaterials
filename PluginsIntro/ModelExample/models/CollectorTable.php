@@ -7,9 +7,9 @@ class CollectorTable extends Omeka_Db_Table
 
     public function findForCollectionId($id)
     {
-	$select = $this->getSelect();
-	$select->where('collection_id = ?', $id);
-	return $this->fetchObject($select);
+        $select = $this->getSelect();
+        $select->where('collection_id = ?', $id);
+        return $this->fetchObjects($select);
     }
 
 
@@ -19,15 +19,15 @@ class CollectorTable extends Omeka_Db_Table
 
     public function applySearchFilters($select, $params)
     {
-	if(isset($params['collection_id']) {
-	  $this->filterByCollection($select, $params['collection_id'];
-	}
+        if(isset($params['collection_id'])) {
+            $this->filterByCollection($select, $params['collection_id']);
+        }
     }
 
 
     public function filterByCollection($select, $collection_id)
     {
-	$select->where('collection_id = ?', $collection_id);
+        $select->where('collection_id = ?', $collection_id);
     }
 
 }
