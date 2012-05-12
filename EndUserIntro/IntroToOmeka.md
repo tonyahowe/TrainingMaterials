@@ -44,8 +44,11 @@ _Examples of what can be done with Omeka_
 _Explain the basic steps of creating content in Omeka._
 
 ### Activities
+_Walk through the process of adding an item and a file_
 
-* Create an Item
+Sample files if people didn't bring them are in sample_files folder
+
+* Create some Items
 	* Add Files to Item (Add Files in order, absent other plugins)
 	* Add DC metadata
 
@@ -55,7 +58,9 @@ _Explain that "item" is to be taken very generically, and can refer to many type
 
 ### Activities
 
-* Create a "Dataset" item type
+* Change some of the created items into appropriate Item Types (pdf => Document, mark-sample => Person) with appropriate metadata
+* Edit an Item Type to add or remove fields (e.g., add Transcriber to Document?)
+* Create a "Dataset" item type (.csv or .xls file)
 	* Possible discussion of when and why to diverge from Dublin Core
 
 

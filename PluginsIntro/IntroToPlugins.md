@@ -36,8 +36,11 @@ _Explain how to use a model, including the modelTable pattern, to dig up and dis
 
 ModelExample plugin is designed for this
 
+* Models often consist of a class for the model, which extends Omeka_Record, and a model table, which extends Omeka_Db_Table
+
 ### Activities
 
+* Switch from using the simple search method to using the findBy() method
 * Using the Omeka applyFilters pattern, add another filter for public and change the query in the hook to use that instead of the straightforward one
 
 ## Omeka's Model-View-Controller structure

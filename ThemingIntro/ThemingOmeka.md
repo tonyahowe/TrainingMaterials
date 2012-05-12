@@ -23,11 +23,12 @@ Most important files are usually
 *	show.php -- used when displaying a single thing (collection, item, etc.)
 *	browse.php -- used when displaying several of a thing
 	
-### Compare 'Griddy' to "Seasons"
+### Activities
 
-* Seasons overrides few of the default files, Griddy overrides many
+* Copy the example-theme theme into your themes directory
 
-## Override the item/show page
+
+## Override the items/show page
 
 _Demonstrate the typical functions, CSS classes, and structures used in a show page_
 
@@ -46,9 +47,11 @@ _Demonstrate the typical functions, CSS classes, and structures used in a show p
 * Highlight the item description by putting it prominently under the title
 * Customize the metadata shown by getting rid of custom_show_item_metadata (some themes let you do this in their configuration settings)
 
-## Override the item/browse page
+## Override the items/browse page
 
 _Demonstrate the typical functions, CSS classes, and structures used in a browse page_
+
+Copy items/browse into example-theme
 
 * loop_items() : used in a <?php while(); ?> structure to loop through items
 * item_tags_as_string() : echo out the tags
@@ -70,6 +73,8 @@ _Explain Omeka's looping of records (similar to WordPress')_
 
 _Demonstrate the typical functions, CSS classes, and structures used in header and footer_
 
+Copy 'common' folder into example-theme
+
 * settings() : get settings set in the site configuration
 * queue_css() : use before display_css() to queue CSS files to be added
 * queue_js() : use before display_js() to queue javascript files to be added
@@ -78,6 +83,8 @@ _Demonstrate the typical functions, CSS classes, and structures used in header a
 
 * Add in new stylesheet
 * Add in a new javascript file
+
+## Override the front page
 
 ## Plugin hooks
 
@@ -116,8 +123,14 @@ When using get_theme_option(), logo in config.ini becomes get_theme_option('Logo
 * Add configuration option to highlight the description of an item (see items/show page activities)
 
 
+## Overriding plugin views
+_Explain how to look through plugin files and override their views_
 
+* Plugins have a 'views/public' (or 'views/shared') folder that contains the views (pages) they generate. You can override those the same way you override the core views. Copy the first folder under 'public' or 'shared' to your theme
 
+### Activities
+
+* Install SimplePages and hack the public/show page to alter the title
 
 
 
