@@ -44,6 +44,9 @@ _Demonstrate the typical functions, CSS classes, and structures used in a show p
 * item() : displays element set data
 * custom_show_item_metadata() : in defaults--can't override! shows ALL the metadata
 
+### Changes coming in Omeka 2.0 (Fall 2012)
+
+* custom_show_item_metadata() will go away. Unsure what, if anything, will replace it (May 20, 2012)
 
 ### Activities
 
@@ -137,7 +140,9 @@ _Explain how to look through plugin files and override their views_
 * Install SimplePages and hack the public/show page to alter the title
 
 
+## Changes coming in Omeka 2.0 (Fall 2012)
 
+* See [Updating Plugins For Omeka 2.0](http://omeka.org/codex/Updating_Plugins_For_2.0)
 
 
 

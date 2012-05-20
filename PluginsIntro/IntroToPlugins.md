@@ -63,7 +63,7 @@ application/libraries/Zend/Controller/Action.php
 * deleteAction : delete a record
 
 
+## Changes coming in Omeka 2.0 (Fall 2012)
 
-
-
+See [Updating Plugins For Omeka 2.0](http://omeka.org/codex/Updating_Plugins_For_2.0)
 
