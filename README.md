@@ -20,6 +20,6 @@ You can contribute materials you have created via one of two basic paths. The fi
 
 The other way to contribute is to use native git and GitHub mechanisms, if you are familiar with them (this is more likely to be true of folks contributing to the plugin and theme portions of the box). Fork the repo, make additions, and send a pull request.
 
-
+Curious about what these mysterious GitHub forks and pull requests are? Read [How To Fork Your Syllabus On GitHub](http://chronicle.com/blogs/profhacker/how-to-fork-a-syllabus-on-github/39447)
 
 

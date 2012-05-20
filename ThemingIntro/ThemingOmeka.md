@@ -28,6 +28,10 @@ Most important files are usually
 * Copy the example-theme theme into your themes directory
 
 
+## From Scratch Theme
+
+* Contains files and folders for collections, items, header and footer, css, and more to get you up and theming quickly.
+
 ## Override the items/show page
 
 _Demonstrate the typical functions, CSS classes, and structures used in a show page_
